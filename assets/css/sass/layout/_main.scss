@@ -1,0 +1,25 @@
+.listad-noticias {
+  padding: 2em;
+  .cabecera h2 {
+    font-size: 2.5em;
+    margin-bottom: 1em;
+  }
+
+  .cuerpo {
+    img {
+      width: 100%;
+      height: 25em;
+      object-fit: cover;
+    }
+    p {
+      margin: 2em 1em;
+      font-size: 1.8em;
+      font-weight: 700;
+    }
+  }
+}
+
+@media (min-width: 576px) {
+  .cuerpo {
+  }
+}

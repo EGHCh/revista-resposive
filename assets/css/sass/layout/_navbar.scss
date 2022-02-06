@@ -1,0 +1,40 @@
+.navBar {
+  display: flex;
+  justify-content:space-around;
+  height: 10em;
+  
+  &__logo {
+    font-size: 3em;
+    font-weight: 700;
+    align-self: center;
+  }
+  &__nav {
+    display: flex;
+    list-style: none;
+    align-content: baseline;
+  }
+  &__item {
+    font-size: 1.8em;
+    display: none;
+    place-self: center;
+    .navBar__link {
+      text-decoration: none;
+      color: black;
+      text-transform:uppercase;
+      font-weight: 700;
+      font-size: 15px;
+      margin: auto 1em;
+    }
+  }
+  &__item--mob {
+    display: flex;
+  }
+}
+
+@media (min-width: 800px) {
+  .navBar {
+    &__item {
+      display: flex;
+    }
+  }
+}

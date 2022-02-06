@@ -1,0 +1,37 @@
+.listado-izquierdo {
+  display: none;
+}
+@media (min-width: 576px) {
+  .listado-izquierdo {
+    display: block;
+    max-width: 22em;
+    justify-self: center;
+    .cabecera-listado {
+      margin-top: 1em;
+      h1 {
+        font-size: 2em;
+        margin-bottom: 1em;
+      }
+      p {
+        font-size: 1.2em;
+        margin-bottom: 1em;
+      }      
+    }
+    .noticias-destacadas {
+      h1 {
+        font-size: 2em;
+        margin-bottom: 0.5em;
+      }
+      .item {
+        h4 {
+          font-size: 1.2em;
+          margin-bottom: 1em;
+        }
+        img {
+          width: 100%;
+          margin-bottom: 1em;
+        }
+      }
+    }
+  }
+} 
